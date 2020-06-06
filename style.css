@@ -1,0 +1,581 @@
+
+
+
+             /* <!-- ============= START INDEX.html ============= --> */
+   
+           /* <<========START NAV BAR========>> */
+
+/*sticky header position*/
+.sticky.is-sticky {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+body {
+min-height: 1200px;
+}
+nav {
+background: #eaebec;
+min-height: 85px;
+
+}
+
+/* .top-info{
+  height: 40px;
+  background-color:  #3E4551;
+}
+@media (max-width: 992px) { 
+  .top-info{
+    display: none;
+  }
+
+
+
+ } */
+
+ .logo{ border-radius: 50%; 
+        width: 38%;
+              
+               
+
+ }
+ @media (max-width: 360px) { 
+ .navbar-brand{
+   display: none;
+ }
+  
+
+
+  }
+
+
+    /* <<========END NAV BAR========>> */
+
+     /* <<========START COVER IMAGE ========>> */
+/* .cover-img{background-image: url(images/-school-.jpg);
+            width: 100%;
+            background-repeat: no-repeat;
+            display: inline-block;
+  width: 100%;
+  
+  height: 650px;
+  vertical-align: middle;
+  background-size: 100%;
+ 
+  background-position: 50% 50%;
+  
+      } */
+      /* .cover-image-text{
+      padding-top: 200px;
+      color:white;
+      font-weight: bold;
+      font-size: 60px;
+     
+      } */
+     /* <<========END COVER IMAGE ========>> */
+    
+
+    /* <<========START INTRO========>> */
+
+.hr-intro-line{
+  margin-top:25px;
+  margin-bottom: 30px;
+  width:25%;
+  height: 6px;
+  background-color: rgb(245, 200, 25);
+ 
+  
+
+}
+.more-about-us{
+  padding-left: 60px;
+   padding-right: 60px; 
+   padding-top: 10px;
+   padding-bottom: 10px;
+  border: rgb(245, 200, 25) ;  
+  background-color: rgb(245, 200, 25);
+}
+.more-about-us:hover{ background-color: rgba(45, 55, 120, 0.950);
+                      color: whitesmoke;
+}
+       
+       /* <<========END INTRO========>> */
+
+
+/* <!-- ===== START STUDENTS NUMBER ===== --> */
+
+
+/* // Extra Small devices ( phones, 200px and up) */
+@media (min-width: 200px) { .course{
+    
+     
+  background-color: white;
+  width: 50%;
+
+
+
+}  }
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { .course{
+    
+     
+     background-color: white;
+     width: 50%;
+  
+  
+  
+} 
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  .course{
+  
+  background-color: white;
+  width: 50%;
+  
+
+
+
+} 
+ }
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  .courses{
+  border-right: white solid 1px;
+  
+} 
+.course{
+  display: none;
+} }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { .courses{
+  border-right: white solid 1px;
+  
+}  
+.course{
+  display: none;
+}  }
+
+
+.choose {
+  background-image:  url(images/school.png.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  
+  /* display: inline-block; */
+  /* width: 100%;
+  font-size: 0;
+  line-height: 0;
+  vertical-align: middle;
+  background-size: 100%;
+
+  background-position: 50% 50%; */
+  
+}
+
+ul{
+  list-style-type:none;
+}
+
+.num{ font-size: 40px;
+     color: cornsilk;
+
+}
+
+.student{ color: cornsilk;
+
+}
+
+
+/* <!-- ===== END STUDENTS NUMBER ===== --> */
+
+/* <!-- ===== START ADMISSION TEAM ===== --> */
+
+
+
+ .para {
+   word-spacing: 4px;
+     
+ }
+
+ .apply{
+  background-color: rgb(245, 200, 25);
+  padding-left: 60px;
+  padding-right: 60px;
+ }
+.apply:hover{
+  color: whitesmoke;
+  background-color: rgba(45, 55, 120, 0.950);
+}
+
+             /* <!-- ===== END ADMISSION TEAM ===== --> */
+
+
+             /* <!-- ===== START Image Gallery ===== --> */
+
+             div.gallery {
+              border: 1px solid #ccc;
+            }
+            
+            div.gallery:hover {
+              border: 1px solid #777;
+            }
+            
+            div.gallery img {
+              width: 100%;
+              height: auto;
+            }
+            
+            div.desc {
+              padding: 15px;
+              text-align: center;
+            }
+            
+            .responsive {
+              box-sizing: border-box;
+            }
+            
+            .responsive {
+              padding: 0 6px;
+              float: left;
+              width: 24.99999%;
+            }
+            .head{
+              font-family: serif;
+             
+              word-spacing: 0px;
+            }
+            .images{
+              color: green ;
+            }
+            @media only screen and (max-width: 700px) {
+              .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+              }
+            }
+            
+            @media only screen and (max-width: 500px) {
+              .responsive {
+                width: 100%;
+              }
+            }
+            
+            .clearfix:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+
+
+             /* <!-- ===== END Image Gallery ===== --> */
+
+
+             /* <!-- ===== START MAP ===== --> */
+               
+             .map-main{
+              border-right:  solid 2px rgb(51, 52, 54);
+              border-left:  solid 2px rgb(51, 52, 54);
+              border-top:  solid 2px rgb(20, 21, 22);
+
+              background-color:#eaebec;
+            }
+            .map-head{
+              height: 60px;
+              background-color: rgba(45, 80, 80, 0.808);
+            }
+            .map{
+            background-color: #eaebecb9;
+            width: 100%;
+            height: 400px;
+            }
+
+             /* <!-- ===== END MAP ===== --> */
+
+             
+              /* <!-- ===== START FOOTER ===== --> */
+
+              .footer{
+                font-size: 20px;
+                font-family: serif;
+                font-weight: bold;
+                
+              }
+            
+             
+              .foot{
+                background-color:#4B515D;
+                
+              }
+              .footer-copyright{
+                background-color: #3E4551;
+                color: rgba(245, 245, 245, 0.644);
+              }
+
+              .adm{
+                color: rgba(245, 245, 245, 0.616);
+                text-transform: capitalize;
+                
+              }
+              
+              .adm:hover{
+                color: white;
+                
+              }
+              
+                     /* <!-- ===== END FOOTER ===== --> */
+ 
+                     
+         /* <!-- ============= COMPLETE INDEX.html ============= --> */
+
+
+
+
+
+
+
+
+
+
+
+
+         /* <!-- ============= START CONTACT.html ============= --> */
+
+         /* <!-- ======= START Address ======= --> */
+.contact-add{
+  font-family: serif;
+  color: rgb(0, 88, 170);
+}
+   /* <!-- ======= END Address ======= --> */
+
+    /* <!-- ======= START Query Form ======= --> */
+
+     /* Style inputs with type="text", select elements and textareas */
+input[type=text],input[type=email],select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.main {
+  border-radius: 5px;
+  /* background-color: #f2f2f2; */
+  padding: 20px;
+} 
+
+     /* <!-- ======= END Query Form ======= --> */
+
+
+      /* <!-- ============= START CONTACT.html ============= --> */
+
+
+
+
+
+
+
+
+
+
+
+
+      /* <!-- ============= START ABOUT.html ============= --> */
+
+
+       /* <!-- ======= START PROJECT DIRECTOR'S MESSAGE ======= --> */
+
+   .imran{
+     background-image: url(images/jonathan-borba-47whM1ZEvfU-unsplash.jpg);
+     width: 100%;
+     display: inline-block; 
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+   background-size: 100%;
+   
+   
+/* background-position: 50% 50%;  */
+   }
+.project{ font-weight: bold;
+  
+  
+}
+
+.khan{
+  background-color: rgba(106, 142, 35, 0.438);
+}
+/* // Small devices (landscape phones, 300px and up) */
+@media (min-width: 300px){
+  .director-msg{
+    padding: 0px 20px 0px 20px;
+     text-align: center;
+    
+    font-family: Verdana;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.759);
+     line-height: 1.9;  
+       } 
+  .project{
+    padding: 80px 0px 30px 0px;
+   font-family: Georgia, serif;
+   font-size: 22px;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { .director-msg{
+  padding: 0px 20px 0px 20px;
+   text-align: center;
+  
+  font-family: Verdana;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.759);
+   line-height: 1.9;  
+     } 
+.project{
+  padding: 80px 0px 30px 0px;
+ font-family: Georgia, serif;
+ font-size: 22px;
+}
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {   .director-msg{
+  padding: 0px 20px 0px 20px;
+   
+  
+  font-family: Verdana;
+  /* font-size: 11px; */
+  color: rgba(0, 0, 0, 0.759);
+  line-height: 1.9;
+} 
+.project{
+  padding: 80px 0px 30px 0px;
+ font-family: Georgia, serif;
+ font-size: 25px;
+}
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  .director-msg{
+  padding: 0px 10px 0px 10px;
+  text-align: justify;
+  font-family: Verdana;
+  color: rgba(0, 0, 0, 0.759);
+  line-height: 1.9;
+  /* letter-spacing: 1.5px;
+     */
+  } 
+.project{
+  padding: 80px 0px 30px 0px;
+ font-family: Georgia, serif;
+ font-size: 25px;
+}
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { .director-msg{
+  padding: 0px 30px 0px 30px;
+  text-align: justify;
+  font-family: Verdana;
+  color: rgba(0, 0, 0, 0.759);
+  line-height: 1.9;
+  /* letter-spacing: 1.5px;
+     */
+} 
+.project{
+  padding: 80px 0px 30px 0px;
+ font-family: Georgia, serif;
+ font-size: 25px;
+} }
+
+       /* <!-- ======= END PROJECT DIRECTOR'S MESSAGE ======= --> */
+
+        /* <!-- ======= START OUR VISION ======= --> */
+ .mission{
+  font-family: fantasy;
+  color: ;
+  font-size: 22px;
+  text-transform: capitalize;
+  padding: 10px 0px 20px 0px;
+
+ }
+.vision {
+  font-family: Verdana;
+  color: rgba(0, 0, 0, 0.759);
+  line-height: 1.9;
+  padding-left: 15px;
+ 
+  
+ }
+
+ .main-div{
+  background-color: rgba(106, 142, 35, 0.438);
+  border-right: 0.5px solid rgba(255, 255, 255, 0.493);
+  }
+/* // Small devices (landscape phones, 300px and up) */
+@media (min-width: 300px){
+  .main-div{
+    margin-top: 1px;
+  }
+  .main-container{
+    margin-top: 0px;
+  }
+  
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px){ .main-div{
+  margin-top: 1px;
+}
+.main-container{
+  margin-top: 0px;
+}
+
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px){ .main-div{
+  margin-top: 0px;
+}
+.main-container{
+  margin-top: 1px;
+}
+
+}
+        /* <!-- ======= END OUR MISSION ======= --> */
+
+
+
+
+    /* <!-- ============= END ABOUT.html ============= --> */
